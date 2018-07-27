@@ -8,4 +8,4 @@ for i in range(0,nm):
 g=0
 for j in range(0,k):
     g+=a[j]
-print('\n',g)
+print(g)
