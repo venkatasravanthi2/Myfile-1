@@ -1,6 +1,4 @@
-n=int(input())
-m=int(input())
-k=int(input())
+n,m,k=input().split()
 if(n > m) and (n > k):
     print(n)
 elif(m > k):
