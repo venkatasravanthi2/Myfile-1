@@ -1,9 +1,9 @@
 
-sm = int(input())
+asm = int(input())
 
-if (sm % 4) == 0:
-   if (sm % 100) == 0:
-       if (sm % 400) == 0:
+if (asm % 4) == 0:
+   if (asm % 100) == 0:
+       if (asm % 400) == 0:
            print("yes")
        else:
            print("no")
