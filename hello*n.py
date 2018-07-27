@@ -1,2 +1,2 @@
 kk=int(input())
-print('hello'*kk,end='\n')
+print('hello\n'*kk)
