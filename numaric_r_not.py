@@ -3,4 +3,4 @@ try:
     nm=float(nm)
     print("yes")
 except:
-    print("no")
+    print("No")
