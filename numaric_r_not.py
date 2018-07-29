@@ -1,5 +1,6 @@
 nm=input()
-if nm.isdigit():
+try:
+    nm=float(nm)
     print("yes")
-else:
+except:
     print("no")
