@@ -5,7 +5,7 @@ if(nm<=1000):
     kk=sorted(storage[0:nm])
 for i in range(0,nm):
     if(i<nm-1):
-        k=' '
+        f=' '
     else:
-        k=''
-    print(kk[i],end=k)
+        f=''
+    print(kk[i],end=f)
