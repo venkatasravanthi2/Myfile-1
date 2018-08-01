@@ -1,9 +1,9 @@
 nm=int(input())
-count=0
+coun=0
 for i in range(1,nm):
     if(nm % i) == 0:
-        count+=1
-        if(count == 2):
+        coun+=1
+        if(coun == 2):
             print("no")
             break
 else:
