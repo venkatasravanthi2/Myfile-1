@@ -7,5 +7,5 @@ for i in range(0,len(nm)):
     elif (nm[i]=='1') or (nm[i]=='2') or (nm[i]=='3') or (nm[i]=='4') or (nm[i]=='5') or (nm[i]=='6') or (nm[i]=='7') or (nm[i]=='8') or (nm[i]=='9') or (nm[i]=='0'):
         count1=1
 if count+count1==2:
-    print("yes")
-else:print("no")
+    print("Yes")
+else:print("No")
